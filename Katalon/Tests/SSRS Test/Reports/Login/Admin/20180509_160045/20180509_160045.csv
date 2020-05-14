@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Admin,Chrome 66.0.3359.139,,2018-05-09 16:00:48,2018-05-09 16:01:07,19.247s,PASSED
+,,,,,,
+Test Cases/Login,Chrome 66.0.3359.139,,2018-05-09 16:00:48,2018-05-09 16:01:07,18.551s,PASSED
+openBrowser,Chrome 66.0.3359.139,,2018-05-09 16:00:49,2018-05-09 16:01:03,13.705s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 16:01:03,2018-05-09 16:01:03,0.384s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 16:01:03,2018-05-09 16:01:03,0.256s,PASSED
+check,Chrome 66.0.3359.139,,2018-05-09 16:01:03,2018-05-09 16:01:03,0.129s,PASSED
+Statement - loginUrl = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(),Chrome 66.0.3359.139,,2018-05-09 16:01:03,2018-05-09 16:01:03,0.035s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-09 16:01:03,2018-05-09 16:01:04,0.138s,PASSED
+Statement - While (loginUrl.equals(com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl())),Chrome 66.0.3359.139,,2018-05-09 16:01:04,2018-05-09 16:01:07,3.321s,PASSED

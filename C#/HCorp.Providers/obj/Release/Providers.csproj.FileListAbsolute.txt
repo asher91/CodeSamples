@@ -1,0 +1,13 @@
+E:\WebApp\HCorp\HCorp\HCorp.Providers\bin\HCorp.Providers.dll.config
+E:\WebApp\HCorp\HCorp\HCorp.Providers\bin\HCorp.Providers.dll
+E:\WebApp\HCorp\HCorp\HCorp.Providers\bin\HCorp.Providers.pdb
+E:\WebApp\HCorp\HCorp\HCorp.Providers\bin\HCorp.Library.dll
+E:\WebApp\HCorp\HCorp\HCorp.Providers\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\WebApp\HCorp\HCorp\HCorp.Providers\bin\Microsoft.Practices.ServiceLocation.dll
+E:\WebApp\HCorp\HCorp\HCorp.Providers\bin\Microsoft.Practices.Unity.dll
+E:\WebApp\HCorp\HCorp\HCorp.Providers\bin\HCorp.Library.pdb
+E:\WebApp\HCorp\HCorp\HCorp.Providers\obj\Release\Providers.csprojAssemblyReference.cache
+E:\WebApp\HCorp\HCorp\HCorp.Providers\obj\Release\Providers.csproj.CoreCompileInputs.cache
+E:\WebApp\HCorp\HCorp\HCorp.Providers\obj\Release\Providers.csproj.CopyComplete
+E:\WebApp\HCorp\HCorp\HCorp.Providers\obj\Release\HCorp.Providers.dll
+E:\WebApp\HCorp\HCorp\HCorp.Providers\obj\Release\HCorp.Providers.pdb

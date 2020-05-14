@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Dashboard Cache" time="50" tests="2" failures="0" errors="0">
+   <testsuite name="Dashboard Cache" tests="2" failures="0" errors="0" time="50" timestamp="2018-06-05 14:20:24" hostname="slabutte - 200.200.200.2" id="Test Suites/Dashboard Cache">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\BAU\\Tickets\\SSRS Implementation\\Tests\\SSRS Test\\Reports\\Dashboard Cache\\20180605_142022"/>
+         <property name="logFiles" value="E:\\BAU\\Tickets\\SSRS Implementation\\Tests\\SSRS Test\\Reports\\Dashboard Cache\\20180605_142022\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="slabutte - 200.200.200.2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.181"/>
+         <property name="hostAddress" value="200.200.200.2"/>
+         <property name="sessionId" value="7e6fbc3b19b80e2eb1e42ae312cd7ddf"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Dashboard-Login" classname="Test Cases/Dashboard-Login" status="PASSED">
+         <system-out><![CDATA[2018-06-05 14:20:25 - [TEST_CASE][PASSED] - Test Cases/Dashboard-Login: Test Cases/Dashboard-Login
+
+2018-06-05 14:20:26 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://reference.aos.nabla/dashboard/login?ReturnUrl=%2fdashboard%2f'
+
+2018-06-05 14:20:57 - [MESSAGE][PASSED] - Browser is opened with url: 'http://reference.aos.nabla/dashboard/login?ReturnUrl=%2fdashboard%2f'
+
+2018-06-05 14:20:57 - [TEST_STEP][PASSED] - setText: Text 'SuperUser' is set on object 'Object Repository/Dashboard Login/input_Username'
+
+2018-06-05 14:20:58 - [MESSAGE][PASSED] - Text 'SuperUser' is set on object 'Object Repository/Dashboard Login/input_Username'
+
+2018-06-05 14:20:58 - [TEST_STEP][PASSED] - setText: Text 'SuperPassword' is set on object 'Object Repository/Dashboard Login/input_Password'
+
+2018-06-05 14:20:58 - [MESSAGE][PASSED] - Text 'SuperPassword' is set on object 'Object Repository/Dashboard Login/input_Password'
+
+2018-06-05 14:20:58 - [TEST_STEP][PASSED] - submit: The form containing object: 'Object Repository/Dashboard Login/input' is submitted
+
+2018-06-05 14:21:13 - [MESSAGE][PASSED] - The form containing object: 'Object Repository/Dashboard Login/input' is submitted]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard-Cache" classname="Test Cases/Dashboard-Cache" status="PASSED">
+         <system-out><![CDATA[2018-06-05 14:21:13 - [TEST_CASE][PASSED] - Test Cases/Dashboard-Cache: Test Cases/Dashboard-Cache
+
+2018-06-05 14:21:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard Cache/div_Cache Manager        View' is clicked on
+
+2018-06-05 14:21:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Cache/div_Cache Manager        View' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-05 14:20:24 - [TEST_SUITE][PASSED] - Dashboard Cache: Test Cases/Dashboard-Cache]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

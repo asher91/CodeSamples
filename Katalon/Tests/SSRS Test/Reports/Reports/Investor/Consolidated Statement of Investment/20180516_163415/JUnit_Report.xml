@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Consolidated Statement of Investment" time="28" tests="4" failures="0" errors="0">
+   <testsuite name="Consolidated Statement of Investment" tests="4" failures="0" errors="0" time="28" timestamp="2018-05-16 16:34:54" hostname="slabutte - 200.200.200.35" id="Test Suites/Reports/Investor/Consolidated Statement of Investment">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\BAU\\Tickets\\SSRS Implementation\\Tests\\SSRS Test\\Reports\\Reports\\Investor\\Consolidated Statement of Investment\\20180516_163415"/>
+         <property name="logFiles" value="E:\\BAU\\Tickets\\SSRS Implementation\\Tests\\SSRS Test\\Reports\\Reports\\Investor\\Consolidated Statement of Investment\\20180516_163415\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="slabutte - 200.200.200.35"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.181"/>
+         <property name="hostAddress" value="200.200.200.35"/>
+         <property name="sessionId" value="2063fec7cd72f69c23ff9f28cb2fb258"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2018-05-16 16:34:54 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2018-05-16 16:34:55 - [TEST_STEP][PASSED] - Statement - URL = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Platform).getValue(2, PID): Reading excel file with source file 'E:\BAU\Tickets\SSRS Implementation\Tests\SSRS Test\Data Files\Platforms.xlsx' and sheet name 'Platform'
+
+2018-05-16 16:34:55 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://ssrs.aos.nabla/iTransact'
+
+2018-05-16 16:35:07 - [MESSAGE][PASSED] - Browser is opened with url: 'https://ssrs.aos.nabla/iTransact'
+
+2018-05-16 16:35:07 - [TEST_STEP][PASSED] - setText: Text 'ITransAdmin' is set on object 'Object Repository/Login/txt_Username'
+
+2018-05-16 16:35:08 - [MESSAGE][PASSED] - Text 'ITransAdmin' is set on object 'Object Repository/Login/txt_Username'
+
+2018-05-16 16:35:08 - [TEST_STEP][PASSED] - setText: Text 'Password1' is set on object 'Object Repository/Login/txt_Password'
+
+2018-05-16 16:35:08 - [MESSAGE][PASSED] - Text 'Password1' is set on object 'Object Repository/Login/txt_Password'
+
+2018-05-16 16:35:08 - [TEST_STEP][PASSED] - check: Object 'Object Repository/Login/chk_TnC' is checked
+
+2018-05-16 16:35:08 - [MESSAGE][PASSED] - Object 'Object Repository/Login/chk_TnC' is checked
+
+2018-05-16 16:35:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/btn_Login' is clicked on
+
+2018-05-16 16:35:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btn_Login' is clicked on
+
+2018-05-16 16:35:08 - [TEST_STEP][PASSED] - data.Wait.forUrlChange: data.Wait.forUrlChange is PASSED
+
+2018-05-16 16:35:08 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-16 16:35:08 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-16 16:35:12 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITransact/Pages/Admin/Default.aspx'
+
+2018-05-16 16:35:12 - [MESSAGE][PASSED] - data.Wait.forUrlChange is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Files/ReadTestData" classname="Test Cases/Files/ReadTestData" status="PASSED">
+         <system-out><![CDATA[2018-05-16 16:35:12 - [TEST_CASE][PASSED] - Test Cases/Files/ReadTestData: Test Cases/Files/ReadTestData
+
+2018-05-16 16:35:12 - [TEST_STEP][PASSED] - data.Read.fromDataFiles: data.Read.fromDataFiles is PASSED
+
+2018-05-16 16:35:12 - [MESSAGE][PASSED] - data.Read.fromDataFiles is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Impersonate/Investor" classname="Test Cases/Impersonate/Investor" status="PASSED">
+         <system-out><![CDATA[2018-05-16 16:35:12 - [TEST_CASE][PASSED] - Test Cases/Impersonate/Investor: Test Cases/Impersonate/Investor
+
+2018-05-16 16:35:12 - [TEST_STEP][PASSED] - Statement - If (Username.equals("")): Reading excel file with source file 'E:\BAU\Tickets\SSRS Implementation\Tests\SSRS Test\Data Files\Platforms.xlsx' and sheet name 'Platform'
+
+2018-05-16 16:35:12 - [TEST_STEP][PASSED] - Statement - Username = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Platform).getValue(6, PID): Reading excel file with source file 'E:\BAU\Tickets\SSRS Implementation\Tests\SSRS Test\Data Files\Platforms.xlsx' and sheet name 'Platform'
+
+2018-05-16 16:35:12 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ssrs.aos.nabla/iTransact/Pages/Admin/Member.aspx?username=TestInvestor007' successfully
+
+2018-05-16 16:35:15 - [MESSAGE][PASSED] - Navigate to 'https://ssrs.aos.nabla/iTransact/Pages/Admin/Member.aspx?username=TestInvestor007' successfully
+
+2018-05-16 16:35:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Impersonate/btn_Avatar' is clicked on
+
+2018-05-16 16:35:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Impersonate/btn_Avatar' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Reports/Investor/Consolidated Statement of Investment" classname="Test Cases/Reports/Investor/Consolidated Statement of Investment" status="PASSED">
+         <system-out><![CDATA[2018-05-16 16:35:19 - [TEST_CASE][PASSED] - Test Cases/Reports/Investor/Consolidated Statement of Investment: Test Cases/Reports/Investor/Consolidated Statement of Investment
+
+2018-05-16 16:35:19 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ssrs.aos.nabla/iTransact/Pages/Investors/Reports.aspx' successfully
+
+2018-05-16 16:35:22 - [MESSAGE][PASSED] - Navigate to 'https://ssrs.aos.nabla/iTransact/Pages/Investors/Reports.aspx' successfully
+
+2018-05-16 16:35:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Reports/Investor/lnk_Consolidated Statement of Investment' is clicked on
+
+2018-05-16 16:35:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Reports/Investor/lnk_Consolidated Statement of Investment' is clicked on
+
+2018-05-16 16:35:22 - [TEST_STEP][PASSED] - input.Date.fromText: input.Date.fromText is PASSED
+
+2018-05-16 16:35:22 - [MESSAGE][PASSED] - Execute JavaScript '$("#inputfromdate").prop('disabled', false);' successfully
+
+2018-05-16 16:35:23 - [MESSAGE][PASSED] - Text '1-Jan-2017' is set on object 'Object Repository/Reports/Investor/txt_FromDate'
+
+2018-05-16 16:35:23 - [MESSAGE][PASSED] - input.Date.fromText is PASSED
+
+2018-05-16 16:35:23 - [TEST_STEP][PASSED] - input.Date.fromText: input.Date.fromText is PASSED
+
+2018-05-16 16:35:23 - [MESSAGE][PASSED] - Execute JavaScript '$("#inputtodate").prop('disabled', false);' successfully
+
+2018-05-16 16:35:23 - [MESSAGE][PASSED] - Text '1-Jan-2018' is set on object 'Object Repository/Reports/Investor/txt_ToDate'
+
+2018-05-16 16:35:23 - [MESSAGE][PASSED] - input.Date.fromText is PASSED
+
+2018-05-16 16:35:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Reports/Investor/btn_Submit' is clicked on
+
+2018-05-16 16:35:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Reports/Investor/btn_Submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-16 16:34:54 - [TEST_SUITE][PASSED] - Consolidated Statement of Investment: Test Cases/Reports/Investor/Consolidated Statement of Investment]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

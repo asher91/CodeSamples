@@ -1,0 +1,46 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [Access] (Schema)
+       [Core] (Schema)
+       [Entity] (Schema)
+       [Access].[Roles] (Table)
+       [Access].[User] (Table)
+       [Core].[Entity] (Table)
+       [Core].[StatusDetails] (Table)
+       [Core].[Culture] (Table)
+       [Core].[Status] (Table)
+       [Entity].[TypeDetails] (Table)
+       [Entity].[Type] (Table)
+       [Entity].[Link] (Table)
+       [Access].[DF_AccessUser_PasswordFormat] (Default Constraint)
+       [Access].[DF_AccessUser_PasswordHashAlgorith] (Default Constraint)
+       [Core].[DF_CoreEntity_StatusId] (Default Constraint)
+       [Core].[DF_CoreStatus_IsActive] (Default Constraint)
+       [Entity].[DF_EntityLink_StatusId] (Default Constraint)
+       [Entity].[DF_EntityLink_Level] (Default Constraint)
+       [Access].[FK_AccessRoles_SectionId] (Foreign Key)
+       [Access].[FK_AccessUser_UserId] (Foreign Key)
+       [Core].[FK_CoreEntity_StatusId_Type] (Foreign Key)
+       [Core].[FK_CoreEntity_Culture] (Foreign Key)
+       [Core].[FK_StatusDetails_StatusId_Type] (Foreign Key)
+       [Core].[FK_StatusDetails_Culture] (Foreign Key)
+       [Core].[FK_CoreStatus_Type] (Foreign Key)
+       [Entity].[FK_EntityTypeDetails_Type] (Foreign Key)
+       [Entity].[FK_EntityTypeDetails_Culture] (Foreign Key)
+       [Entity].[FK_EntityLink_EntityId] (Foreign Key)
+       [Entity].[FK_EntityLink_ParentEntityId] (Foreign Key)
+       [Entity].[FK_EntityLink_StatusId_Type] (Foreign Key)
+       [Access].[GetUser] (Procedure)
+       [Access].[SetUser] (Procedure)
+
+** Supporting actions

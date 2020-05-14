@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="d454afec-f260-4a87-926a-364a61348ed8" ChangeDateTime="04/14/2020 14:31:54">
+    <Property Name="ElementName" Value="[Core].[EntityTypes].[EntityType]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Core].[EntityTypes]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Type" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="fc4101ef-32ad-4750-b2be-83e4dfd97fbb" ChangeDateTime="04/15/2020 18:32:55">
+    <Property Name="ElementName" Value="[Access].[User].[RecoveryQuestion]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Access].[User]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PasswordQuestion" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8e8af2c0-e38d-4aa2-8b9d-6d438922aaaf" ChangeDateTime="04/15/2020 18:32:56">
+    <Property Name="ElementName" Value="[Access].[User].[RecoveryAnswer]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Access].[User]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PasswordAnswer" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4e73f4bd-855e-4b38-a3c9-add0b90b9801" ChangeDateTime="04/15/2020 18:36:17">
+    <Property Name="ElementName" Value="[Access].[User].[LastPasswordUpdateDate]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Access].[User]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="LastPasswordChangedDate" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="fdbb0a7c-0b4a-48a3-b059-655ed6e978fa" ChangeDateTime="04/21/2020 19:27:30">
+    <Property Name="ElementName" Value="[Access].[User].[UserId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Access].[User]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Username" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="489bc92b-c7be-430c-8e3c-cd1bbb42eb82" ChangeDateTime="04/21/2020 21:59:41">
+    <Property Name="ElementName" Value="[Access].[User].[Username]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Access].[User]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UserName" />
+  </Operation>
+</Operations>

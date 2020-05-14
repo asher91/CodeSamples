@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Investor,Chrome 66.0.3359.139,,2018-05-02 15:38:07,2018-05-02 15:38:26,18.894s,PASSED
+,,,,,,
+Test Cases/Login,Chrome 66.0.3359.139,,2018-05-02 15:38:07,2018-05-02 15:38:21,13.433s,PASSED
+openBrowser,Chrome 66.0.3359.139,,2018-05-02 15:38:08,2018-05-02 15:38:20,11.958s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-02 15:38:20,2018-05-02 15:38:20,0.398s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-02 15:38:20,2018-05-02 15:38:20,0.291s,PASSED
+check,Chrome 66.0.3359.139,,2018-05-02 15:38:20,2018-05-02 15:38:20,0.142s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-02 15:38:20,2018-05-02 15:38:21,0.170s,PASSED
+,,,,,,
+Test Cases/Impersonate/Investor,Chrome 66.0.3359.139,,2018-05-02 15:38:21,2018-05-02 15:38:25,4.880s,PASSED
+"Statement - impUrl = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Data).getValue(5, PID).toString().concat(com.kms.katalon.core.testdata.TestDataFactory.findTestData(Data).getValue(6, PID).toString())",Chrome 66.0.3359.139,,2018-05-02 15:38:21,2018-05-02 15:38:21,0.165s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-02 15:38:21,2018-05-02 15:38:24,2.985s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-02 15:38:24,2018-05-02 15:38:25,1.447s,PASSED

@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Advisor,Chrome 66.0.3359.139,,2018-05-09 15:36:14,2018-05-09 15:36:40,26.465s,PASSED
+,,,,,,
+Test Cases/Login,Chrome 66.0.3359.139,,2018-05-09 15:36:14,2018-05-09 15:36:33,18.854s,PASSED
+openBrowser,Chrome 66.0.3359.139,,2018-05-09 15:36:15,2018-05-09 15:36:29,13.779s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 15:36:29,2018-05-09 15:36:29,0.553s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 15:36:29,2018-05-09 15:36:29,0.260s,PASSED
+check,Chrome 66.0.3359.139,,2018-05-09 15:36:29,2018-05-09 15:36:30,0.169s,PASSED
+Statement - loginUrl = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(),Chrome 66.0.3359.139,,2018-05-09 15:36:30,2018-05-09 15:36:30,0.087s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-09 15:36:30,2018-05-09 15:36:30,0.164s,PASSED
+Statement - While (loginUrl.equals(com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl())),Chrome 66.0.3359.139,,2018-05-09 15:36:30,2018-05-09 15:36:33,3.316s,PASSED
+,,,,,,
+Test Cases/Impersonate/Advisor,Chrome 66.0.3359.139,,2018-05-09 15:36:33,2018-05-09 15:36:40,7.026s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-09 15:36:33,2018-05-09 15:36:36,3.011s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-09 15:36:36,2018-05-09 15:36:40,3.797s,PASSED

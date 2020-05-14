@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Endowment Policy Summary,Chrome 66.0.3359.181,,2018-05-16 16:34:18,2018-05-16 16:34:50,31.828s,ERROR
+,,,,,,
+Test Cases/Login,Chrome 66.0.3359.181,,2018-05-16 16:34:19,2018-05-16 16:34:38,19.545s,PASSED
+"Statement - URL = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Platform).getValue(2, PID)",Chrome 66.0.3359.181,,2018-05-16 16:34:19,2018-05-16 16:34:20,1.392s,PASSED
+openBrowser,Chrome 66.0.3359.181,,2018-05-16 16:34:20,2018-05-16 16:34:34,13.346s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-16 16:34:34,2018-05-16 16:34:34,0.386s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-16 16:34:34,2018-05-16 16:34:34,0.285s,PASSED
+check,Chrome 66.0.3359.181,,2018-05-16 16:34:34,2018-05-16 16:34:35,0.145s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-16 16:34:35,2018-05-16 16:34:35,0.157s,PASSED
+data.Wait.forUrlChange,Chrome 66.0.3359.181,,2018-05-16 16:34:35,2018-05-16 16:34:38,3.356s,PASSED
+,,,,,,
+Test Cases/Impersonate/Investor,Chrome 66.0.3359.181,,2018-05-16 16:34:38,2018-05-16 16:34:46,7.714s,PASSED
+"Statement - If (Username.equals(""""))",Chrome 66.0.3359.181,,2018-05-16 16:34:38,2018-05-16 16:34:39,0.114s,PASSED
+navigateToUrl,Chrome 66.0.3359.181,,2018-05-16 16:34:39,2018-05-16 16:34:42,3.971s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-16 16:34:42,2018-05-16 16:34:46,3.339s,PASSED
+,,,,,,
+Test Cases/Reports/Investor/Endowment Policy Summary,Chrome 66.0.3359.181,,2018-05-16 16:34:46,2018-05-16 16:34:50,4.009s,ERROR
+navigateToUrl,Chrome 66.0.3359.181,,2018-05-16 16:34:46,2018-05-16 16:34:50,3.363s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-16 16:34:50,2018-05-16 16:34:50,0.145s,PASSED
+data.SetDate.FromText,Chrome 66.0.3359.181,,2018-05-16 16:34:50,2018-05-16 16:34:50,0.180s,ERROR

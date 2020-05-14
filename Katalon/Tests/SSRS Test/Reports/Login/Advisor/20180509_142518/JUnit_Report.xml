@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Advisor" time="57" tests="1" failures="1" errors="0">
+   <testsuite name="Advisor" tests="1" failures="1" errors="0" time="57" timestamp="2018-05-09 14:25:20" hostname="slabutte - 200.200.200.11" id="Test Suites/Login/Advisor">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\BAU\\Tickets\\SSRS Implementation\\Tests\\SSRS Test\\Reports\\Login\\Advisor\\20180509_142518"/>
+         <property name="logFiles" value="E:\\BAU\\Tickets\\SSRS Implementation\\Tests\\SSRS Test\\Reports\\Login\\Advisor\\20180509_142518\\execution0.log"/>
+         <property name="attachments" value="E:\\BAU\\Tickets\\SSRS Implementation\\Tests\\SSRS Test\\Reports\\Login\\Advisor\\20180509_142518\\1525861577560.png"/>
+         <property name="hostName" value="slabutte - 200.200.200.11"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="200.200.200.11"/>
+         <property name="sessionId" value="74625e7c1f9ae643210b25b35ae816ba"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2018-05-09 14:25:21 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2018-05-09 14:25:21 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://ssrs.aos.nabla/iTransact'
+
+2018-05-09 14:25:35 - [MESSAGE][PASSED] - Browser is opened with url: 'https://ssrs.aos.nabla/iTransact'
+
+2018-05-09 14:25:35 - [TEST_STEP][PASSED] - setText: Text 'ITransAdmin' is set on object 'Object Repository/Login/txtUsername'
+
+2018-05-09 14:25:36 - [MESSAGE][PASSED] - Text 'ITransAdmin' is set on object 'Object Repository/Login/txtUsername'
+
+2018-05-09 14:25:36 - [TEST_STEP][PASSED] - setText: Text 'Password1' is set on object 'Object Repository/Login/txtPassword'
+
+2018-05-09 14:25:36 - [MESSAGE][PASSED] - Text 'Password1' is set on object 'Object Repository/Login/txtPassword'
+
+2018-05-09 14:25:36 - [TEST_STEP][PASSED] - check: Object 'Object Repository/Login/chkTnC' is checked
+
+2018-05-09 14:25:36 - [MESSAGE][PASSED] - Object 'Object Repository/Login/chkTnC' is checked
+
+2018-05-09 14:25:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/btnLogin' is clicked on
+
+2018-05-09 14:25:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btnLogin' is clicked on
+
+2018-05-09 14:25:37 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-09 14:25:37 - [MESSAGE][PASSED] - Wait for page load successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Impersonate/Advisor" classname="Test Cases/Impersonate/Advisor" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Impersonate/btnAvatar' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Impersonate/btnAvatar' located by 'By.xpath: //*[@id = 'ctl00_cphContent_InfoMember_ButtonAvatar']' not found)"/>
+         <system-out><![CDATA[2018-05-09 14:25:37 - [TEST_CASE][FAILED] - Test Cases/Impersonate/Advisor: Test Cases/Impersonate/Advisor FAILED because (of) Unable to click on object 'Object Repository/Impersonate/btnAvatar' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Impersonate/btnAvatar' located by 'By.xpath: //*[@id = 'ctl00_cphContent_InfoMember_ButtonAvatar']' not found)
+
+2018-05-09 14:25:37 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://ssrs.aos.nabla/iTransact/Pages/Admin/Member.aspx?username=JohnDown34' successfully
+
+2018-05-09 14:25:46 - [MESSAGE][PASSED] - Navigate to 'https://ssrs.aos.nabla/iTransact/Pages/Admin/Member.aspx?username=JohnDown34' successfully
+
+2018-05-09 14:25:46 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Impersonate/btnAvatar' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Impersonate/btnAvatar' located by 'By.xpath: //*[@id = 'ctl00_cphContent_InfoMember_ButtonAvatar']' not found)
+
+2018-05-09 14:26:17 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Impersonate/btnAvatar' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Impersonate/btnAvatar' located by 'By.xpath: //*[@id = 'ctl00_cphContent_InfoMember_ButtonAvatar']' not found)
+[[ATTACHMENT|E:\\BAU\\Tickets\\SSRS Implementation\\Tests\\SSRS Test\\Reports\\Login\\Advisor\\20180509_142518\\1525861577560.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-09 14:25:37 - [TEST_CASE][FAILED] - Test Cases/Impersonate/Advisor: Test Cases/Impersonate/Advisor FAILED because (of) Unable to click on object 'Object Repository/Impersonate/btnAvatar' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Impersonate/btnAvatar' located by 'By.xpath: //*[@id = 'ctl00_cphContent_InfoMember_ButtonAvatar']' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-09 14:25:20 - [TEST_SUITE][FAILED] - Advisor: Test Cases/Impersonate/Advisor FAILED because (of) Unable to click on object 'Object Repository/Impersonate/btnAvatar' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Impersonate/btnAvatar' located by 'By.xpath: //*[@id = 'ctl00_cphContent_InfoMember_ButtonAvatar']' not found)]]></system-out>
+      <system-err><![CDATA[2018-05-09 14:25:20 - [TEST_SUITE][FAILED] - Advisor: Test Cases/Impersonate/Advisor FAILED because (of) Unable to click on object 'Object Repository/Impersonate/btnAvatar' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Impersonate/btnAvatar' located by 'By.xpath: //*[@id = 'ctl00_cphContent_InfoMember_ButtonAvatar']' not found)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Investor" time="36" tests="1" failures="1" errors="0">
+   <testsuite name="Investor" tests="1" failures="1" errors="0" time="36" timestamp="2018-05-02 15:41:17" hostname="slabutte - 200.200.200.12" id="Test Suites/Login/Investor">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\BAU\\Tickets\\SSRS Implementation\\Tests\\SSRS Test\\Reports\\Login\\Investor\\20180502_154114"/>
+         <property name="logFiles" value="E:\\BAU\\Tickets\\SSRS Implementation\\Tests\\SSRS Test\\Reports\\Login\\Investor\\20180502_154114\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="slabutte - 200.200.200.12"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="200.200.200.12"/>
+         <property name="sessionId" value="afa76fec7fc988d3af26a15f6aa358a5"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2018-05-02 15:41:17 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2018-05-02 15:41:18 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://s-iis-uat/iTransact'
+
+2018-05-02 15:41:33 - [MESSAGE][PASSED] - Browser is opened with url: 'http://s-iis-uat/iTransact'
+
+2018-05-02 15:41:33 - [TEST_STEP][PASSED] - setText: Text 'DemoAdmin' is set on object 'Object Repository/Login/txtUsername'
+
+2018-05-02 15:41:33 - [MESSAGE][PASSED] - Text 'DemoAdmin' is set on object 'Object Repository/Login/txtUsername'
+
+2018-05-02 15:41:33 - [TEST_STEP][PASSED] - setText: Text 'Password1' is set on object 'Object Repository/Login/txtPassword'
+
+2018-05-02 15:41:33 - [MESSAGE][PASSED] - Text 'Password1' is set on object 'Object Repository/Login/txtPassword'
+
+2018-05-02 15:41:33 - [TEST_STEP][PASSED] - check: Object 'Object Repository/Login/chkTnC' is checked
+
+2018-05-02 15:41:33 - [MESSAGE][PASSED] - Object 'Object Repository/Login/chkTnC' is checked
+
+2018-05-02 15:41:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/btnLogin' is clicked on
+
+2018-05-02 15:41:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btnLogin' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Impersonate/Investor" classname="Test Cases/Impersonate/Investor" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Impersonate/btnAvatar' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SLABUTTE-LAPTOP', ip: '200.200.200.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\slabutte\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: afa76fec7fc988d3af26a15f6aa358a5
+*** Element info: {Using=xpath, value=//*[@id = 'ctl00_cphContent_InfoMember_ButtonAvatar']})"/>
+         <system-out><![CDATA[2018-05-02 15:41:34 - [TEST_CASE][FAILED] - Test Cases/Impersonate/Investor: Test Cases/Impersonate/Investor FAILED because (of) Unable to click on object 'Object Repository/Impersonate/btnAvatar' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SLABUTTE-LAPTOP', ip: '200.200.200.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\slabutte\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: afa76fec7fc988d3af26a15f6aa358a5
+*** Element info: {Using=xpath, value=//*[@id = 'ctl00_cphContent_InfoMember_ButtonAvatar']})
+
+2018-05-02 15:41:34 - [TEST_STEP][PASSED] - Statement - impUrl = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Data).getValue(5, PID).toString().concat(com.kms.katalon.core.testdata.TestDataFactory.findTestData(Data).getValue(6, PID).toString()): Reading excel file with source file 'E:\BAU\Tickets\SSRS Implementation\Tests\SSRS Test\Data Files\Platforms.xlsx' and sheet name 'Credentials'
+
+2018-05-02 15:41:34 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://s-iis-sit:8001/ITransact/Pages/Admin/Member.aspx?username=Maggie77' successfully
+
+2018-05-02 15:41:43 - [MESSAGE][PASSED] - Navigate to 'http://s-iis-sit:8001/ITransact/Pages/Admin/Member.aspx?username=Maggie77' successfully
+
+2018-05-02 15:41:43 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Impersonate/btnAvatar' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SLABUTTE-LAPTOP', ip: '200.200.200.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\slabutte\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: afa76fec7fc988d3af26a15f6aa358a5
+*** Element info: {Using=xpath, value=//*[@id = 'ctl00_cphContent_InfoMember_ButtonAvatar']})
+
+2018-05-02 15:41:53 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-05-02 15:41:53 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Impersonate/btnAvatar' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SLABUTTE-LAPTOP', ip: '200.200.200.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\slabutte\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: afa76fec7fc988d3af26a15f6aa358a5
+*** Element info: {Using=xpath, value=//*[@id = 'ctl00_cphContent_InfoMember_ButtonAvatar']})]]></system-out>
+         <system-err><![CDATA[2018-05-02 15:41:34 - [TEST_CASE][FAILED] - Test Cases/Impersonate/Investor: Test Cases/Impersonate/Investor FAILED because (of) Unable to click on object 'Object Repository/Impersonate/btnAvatar' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SLABUTTE-LAPTOP', ip: '200.200.200.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\slabutte\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: afa76fec7fc988d3af26a15f6aa358a5
+*** Element info: {Using=xpath, value=//*[@id = 'ctl00_cphContent_InfoMember_ButtonAvatar']})]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-02 15:41:17 - [TEST_SUITE][FAILED] - Investor: Test Cases/Impersonate/Investor FAILED because (of) Unable to click on object 'Object Repository/Impersonate/btnAvatar' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SLABUTTE-LAPTOP', ip: '200.200.200.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\slabutte\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: afa76fec7fc988d3af26a15f6aa358a5
+*** Element info: {Using=xpath, value=//*[@id = 'ctl00_cphContent_InfoMember_ButtonAvatar']})]]></system-out>
+      <system-err><![CDATA[2018-05-02 15:41:17 - [TEST_SUITE][FAILED] - Investor: Test Cases/Impersonate/Investor FAILED because (of) Unable to click on object 'Object Repository/Impersonate/btnAvatar' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SLABUTTE-LAPTOP', ip: '200.200.200.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\slabutte\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: afa76fec7fc988d3af26a15f6aa358a5
+*** Element info: {Using=xpath, value=//*[@id = 'ctl00_cphContent_InfoMember_ButtonAvatar']})]]></system-err>
+   </testsuite>
+</testsuites>

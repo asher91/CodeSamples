@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ReadTestData</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fdfb289a-dde7-4cc1-a03d-3b3cf643b7c7</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Platform')</defaultValue>
+      <description></description>
+      <id>7853e54a-7c61-4580-b602-1eb1744487a6</id>
+      <masked>false</masked>
+      <name>testValuesSourceName</name>
+   </variable>
+</TestCaseEntity>

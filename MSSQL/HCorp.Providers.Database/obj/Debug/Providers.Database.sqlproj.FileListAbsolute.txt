@@ -1,0 +1,5 @@
+E:\WebApp\HCorp\HCorp\HCorp.Providers.Database\bin\Debug\Providers.Database.dacpac
+E:\WebApp\HCorp\HCorp\HCorp.Providers.Database\bin\Debug\HCorp.Providers.Database.dll
+E:\WebApp\HCorp\HCorp\HCorp.Providers.Database\bin\Debug\HCorp.Providers.Database.pdb
+E:\WebApp\HCorp\HCorp\HCorp.Providers.Database\obj\Debug\HCorp.Providers.Database.dll
+E:\WebApp\HCorp\HCorp\HCorp.Providers.Database\obj\Debug\HCorp.Providers.Database.pdb

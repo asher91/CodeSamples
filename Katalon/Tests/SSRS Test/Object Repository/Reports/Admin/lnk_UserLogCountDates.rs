@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lnk_UserLogCountDates</name>
+   <tag></tag>
+   <elementGuidId>d1b4eb8d-6226-489b-95b8-d76a7f6f64ca</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;grid&quot;)/tbody[1]/tr[@class=&quot;even&quot;][2]/td[@class=&quot;fact&quot;]/a[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;grid&quot;)/tbody[1]/tr[@class=&quot;even&quot;][2]/td[@class=&quot;fact&quot;]/a[1]</value>
+   </webElementProperties>
+</WebElementEntity>

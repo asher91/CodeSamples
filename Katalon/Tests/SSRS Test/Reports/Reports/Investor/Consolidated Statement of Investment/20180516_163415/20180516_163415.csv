@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Consolidated Statement of Investment,Chrome 66.0.3359.181,,2018-05-16 16:34:54,2018-05-16 16:35:23,28.813s,PASSED
+,,,,,,
+Test Cases/Login,Chrome 66.0.3359.181,,2018-05-16 16:34:54,2018-05-16 16:35:12,17.171s,PASSED
+"Statement - URL = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Platform).getValue(2, PID)",Chrome 66.0.3359.181,,2018-05-16 16:34:55,2018-05-16 16:34:55,0.131s,PASSED
+openBrowser,Chrome 66.0.3359.181,,2018-05-16 16:34:55,2018-05-16 16:35:07,11.719s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-16 16:35:07,2018-05-16 16:35:08,0.676s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-16 16:35:08,2018-05-16 16:35:08,0.361s,PASSED
+check,Chrome 66.0.3359.181,,2018-05-16 16:35:08,2018-05-16 16:35:08,0.184s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-16 16:35:08,2018-05-16 16:35:08,0.158s,PASSED
+data.Wait.forUrlChange,Chrome 66.0.3359.181,,2018-05-16 16:35:08,2018-05-16 16:35:12,3.314s,PASSED
+,,,,,,
+Test Cases/Files/ReadTestData,Chrome 66.0.3359.181,,2018-05-16 16:35:12,2018-05-16 16:35:12,0.248s,PASSED
+data.Read.fromDataFiles,Chrome 66.0.3359.181,,2018-05-16 16:35:12,2018-05-16 16:35:12,0.020s,PASSED
+,,,,,,
+Test Cases/Impersonate/Investor,Chrome 66.0.3359.181,,2018-05-16 16:35:12,2018-05-16 16:35:19,6.798s,PASSED
+"Statement - If (Username.equals(""""))",Chrome 66.0.3359.181,,2018-05-16 16:35:12,2018-05-16 16:35:12,0.067s,PASSED
+navigateToUrl,Chrome 66.0.3359.181,,2018-05-16 16:35:12,2018-05-16 16:35:15,3.251s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-16 16:35:15,2018-05-16 16:35:19,3.315s,PASSED
+,,,,,,
+Test Cases/Reports/Investor/Consolidated Statement of Investment,Chrome 66.0.3359.181,,2018-05-16 16:35:19,2018-05-16 16:35:23,4.314s,PASSED
+navigateToUrl,Chrome 66.0.3359.181,,2018-05-16 16:35:19,2018-05-16 16:35:22,3.246s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-16 16:35:22,2018-05-16 16:35:22,0.123s,PASSED
+input.Date.fromText,Chrome 66.0.3359.181,,2018-05-16 16:35:22,2018-05-16 16:35:23,0.352s,PASSED
+input.Date.fromText,Chrome 66.0.3359.181,,2018-05-16 16:35:23,2018-05-16 16:35:23,0.207s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-16 16:35:23,2018-05-16 16:35:23,0.188s,PASSED

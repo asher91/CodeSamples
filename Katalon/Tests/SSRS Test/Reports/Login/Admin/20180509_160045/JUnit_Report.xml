@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Admin" time="19" tests="1" failures="0" errors="0">
+   <testsuite name="Admin" tests="1" failures="0" errors="0" time="19" timestamp="2018-05-09 16:00:48" hostname="slabutte - 200.200.200.11" id="Test Suites/Login/Admin">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\BAU\\Tickets\\SSRS Implementation\\Tests\\SSRS Test\\Reports\\Login\\Admin\\20180509_160045"/>
+         <property name="logFiles" value="E:\\BAU\\Tickets\\SSRS Implementation\\Tests\\SSRS Test\\Reports\\Login\\Admin\\20180509_160045\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="slabutte - 200.200.200.11"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="200.200.200.11"/>
+         <property name="sessionId" value="dcecae455fd08675ebf2c9ff9c07bb77"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2018-05-09 16:00:48 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2018-05-09 16:00:49 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://ssrs.aos.nabla/iTransact'
+
+2018-05-09 16:01:03 - [MESSAGE][PASSED] - Browser is opened with url: 'https://ssrs.aos.nabla/iTransact'
+
+2018-05-09 16:01:03 - [TEST_STEP][PASSED] - setText: Text 'ITransAdmin' is set on object 'Object Repository/Login/txtUsername'
+
+2018-05-09 16:01:03 - [MESSAGE][PASSED] - Text 'ITransAdmin' is set on object 'Object Repository/Login/txtUsername'
+
+2018-05-09 16:01:03 - [TEST_STEP][PASSED] - setText: Text 'Password1' is set on object 'Object Repository/Login/txtPassword'
+
+2018-05-09 16:01:03 - [MESSAGE][PASSED] - Text 'Password1' is set on object 'Object Repository/Login/txtPassword'
+
+2018-05-09 16:01:03 - [TEST_STEP][PASSED] - check: Object 'Object Repository/Login/chkTnC' is checked
+
+2018-05-09 16:01:03 - [MESSAGE][PASSED] - Object 'Object Repository/Login/chkTnC' is checked
+
+2018-05-09 16:01:03 - [TEST_STEP][PASSED] - Statement - loginUrl = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(): Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:03 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/btnLogin' is clicked on
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btnLogin' is clicked on
+
+2018-05-09 16:01:04 - [TEST_STEP][PASSED] - Statement - While (loginUrl.equals(com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl())): Current window's url is: 'https://ssrs.aos.nabla/ITransact/Pages/Admin/Default.aspx'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:04 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:05 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:07 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITRANSACT/Pages/Guest/DynamicViewer.aspx?pid=19'
+
+2018-05-09 16:01:07 - [MESSAGE][PASSED] - Current window's url is: 'https://ssrs.aos.nabla/ITransact/Pages/Admin/Default.aspx']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-09 16:00:48 - [TEST_SUITE][PASSED] - Admin: Test Cases/Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
